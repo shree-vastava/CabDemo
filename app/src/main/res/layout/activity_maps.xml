@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.shree.cabsplaces.MapsActivity" />
+
+    <EditText
+        android:id="@+id/where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Where to?"
+        android:focusableInTouchMode="false"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:elevation="10dp"
+        android:background="@drawable/rectangle"/>
+</RelativeLayout>
